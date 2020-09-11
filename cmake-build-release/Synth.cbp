@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Synth"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jakub/CLionProjects/Synth/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jakub/CLionProjects/Synth/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jakub/CLionProjects/Synth/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Synth">
+				<Option output="/home/jakub/CLionProjects/Synth/cmake-build-release/Synth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jakub/CLionProjects/Synth/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 Synth"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Synth/fast">
+				<Option output="/home/jakub/CLionProjects/Synth/cmake-build-release/Synth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jakub/CLionProjects/Synth/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 Synth/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jakub/CLionProjects/Synth/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jakub/CLionProjects/Synth/api/device.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/api/device.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/filter.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/filter.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/generator.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/generator.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/microphone.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/microphone.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/printer.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/printer.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/speaker.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/devices/speaker.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/main.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/synth.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/synth.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/utils/PA.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/utils/PA.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/utils/queue.c">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/utils/queue.h">
+			<Option target="Synth"/>
+		</Unit>
+		<Unit filename="/home/jakub/CLionProjects/Synth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
